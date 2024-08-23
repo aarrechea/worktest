@@ -1,0 +1,36 @@
+/* Registration div */
+#divRegistration {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+    row-gap: 2rem;
+    width: 50%;
+    height: 30rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#divRegistrationInput {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 15% 10% 15% 10% 15% 10% 15%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+    #divRegistrationInput label {
+        font-size: 1.2rem;
+    }
+
+    #divRegistrationInput input {
+        font-size: 1.3rem;
+        height: 80%;
+        width: 50%;
+        background-color: white;
+        padding-left: 0.5rem;
+        border-radius: 3%;
+    }
+

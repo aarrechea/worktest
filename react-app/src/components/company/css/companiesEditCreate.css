@@ -1,0 +1,40 @@
+/* Buttons bar */
+#divCompanyCreateButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    margin: 2rem auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#divCompanyData {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+    #divCompanyData h1 {
+        text-align: center;
+    }
+
+    #divCompanyData label {
+        font-size: 1.2rem;
+        margin: 2rem;
+    }
+
+    #divCompanyData textarea {
+        font-size: 1.3rem;
+        resize: none;
+        width: 70%;
+        height: 4rem;
+        padding: 0.7rem;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+
+

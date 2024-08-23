@@ -1,0 +1,128 @@
+#divEvaluationList {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    text-align: center;    
+}
+
+
+
+/* Evaluation list card */
+#evaluationListCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    max-height: 25rem;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+    
+    #lblEvaluationListCard {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 4rem;
+    }    
+
+
+
+/* Evaluation card */
+#divEvaluationCard {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 5rem;
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#divEvaluationCard:hover {
+    border: 2px solid green;
+}
+
+#divEvaluationCard:hover .toBold {
+    font-weight: bold;
+}
+
+    #divEvaluationCardLabels {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80% 20%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;        
+        height: 100%;
+    }
+        
+        #divEvaluationCardLabels label {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+
+        #divEvaluationCardLabels textarea {
+            height: 100%;
+            resize: none;
+            border: none;
+            background-color: white;
+        }
+            #divEvaluationCardLabels textarea:hover {
+                font-weight: bold;
+            }
+
+        #divEvaluationCardLabels input {
+            height: 100%;
+            border: none;
+            background-color: white;
+        }
+
+        #divEvaluationCardLabelsName {
+            display: grid;
+            grid-template-columns: 15% 85%;
+        }
+
+        #divEvaluationCardLabelsUser {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+
+    #divEvaluationCardButtons {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+        
+        #divEvaluationCardButtons button {
+            background-color: white;
+            border: none;
+        }
+
+        #divEvaluationCardButtons button:hover {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        #divEvaluationCardButtons button:hover {
+            color: green;
+        }
+
+        #divEvaluationCardButtons button:nth-child(2):hover {
+            color: red;
+        }

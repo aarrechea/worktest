@@ -1,0 +1,9 @@
+#divCompaniesFirstBar {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 70%;
+    margin: 12rem auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
